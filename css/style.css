@@ -1,10 +1,11 @@
-* {
+*{
     box-sizing: border-box;
 }
 body{
     font-family: 'PT Sans Narrow', sans-serif;
-	padding: 0;
+
     margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -14,9 +15,8 @@ body{
     width: 100%;
     height: 900px;
 
-    background-color: #5d8fb4;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/coding.jpg);
-    
+    background-color: #5d8fb4;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -43,11 +43,11 @@ body{
     color: white;
 }
 .nav-link:hover{
-	color: orange;
+    color: #f2cd38;
 }
 .nav-link:active{
-	opacity: 0.5;
-	color: orange;
+    opacity: 0.5;
+    color: #f2cd38;
 }
 
 .photo-wrapper{
@@ -79,6 +79,8 @@ body{
     font-size: 36px;
 
     margin-bottom: 60px;
+
+    text-align: center;
 
     color: #fff;
 }
@@ -118,4 +120,101 @@ body{
 
 .social-icon .fa-linkedin-in{
     color: rgb(2, 103, 185);
+}
+
+.container{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+}
+.wrapper-content{
+    display: flex;
+
+    justify-content: space-between;
+}
+.about-photo{
+    max-width: 470px;
+    padding-right: 15px;
+}
+.about-photo-img{
+    max-width: 100%;
+    height: auto;
+}
+.about-content{
+    width: 570px;
+}
+.about-content p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+.about-title{
+    font-size: 58px;
+    font-weight: 700;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: #17609e;
+}
+.about-list{
+    margin-top: 0;
+    padding-left: 20px;
+
+    list-style-type: circle;
+}
+/* site */
+.container-fluid{
+    background-color: #292929;
+}
+.title{
+    font-size: 58px;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: #fff;
+}
+.site-slogan{
+    font-size: 36px;
+
+    padding-bottom: 85px;
+
+    text-align: center;
+
+    color: #fff;
+}
+.site{
+    display: flex;
+
+    justify-content: space-between;
+}
+.site-wrap{
+    margin-right: 10px;
+}
+.site-wrap:last-child{
+    margin-right: 0;
+}
+.site-wrap-img img{
+    min-width: 191px;
+    max-width: 100%;
+    height: auto;
+    min-height: 160px;
+}
+.site-wrap__desc h3{
+    font-size: 36px;
+
+    margin-bottom: 15px;
+
+    color: #fff;
+}
+.site-wrap__desc a{
+    color: #a0d4fa;
+}
+.site-wrap__desc a:hover{
+    color: #f2cd38;
 }
